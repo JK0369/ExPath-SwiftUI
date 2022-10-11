@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ExPathApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .background(.black)
     }
+  }
 }
